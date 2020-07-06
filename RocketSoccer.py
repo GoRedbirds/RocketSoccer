@@ -1,4 +1,4 @@
-#https://py3.codeskulptor.org/#user305_sPRE0Yv6Iv_10.py
+#https://py3.codeskulptor.org/#user305_sPRE0Yv6Iv_11.py
 
 import simplegui
 import math
@@ -46,7 +46,7 @@ class RocketSoccer:
             
         self.ball.set_pos([WIDTH/2, HEIGHT/2])
         self.o_car.set_pos([WIDTH/4, HEIGHT*(0.1 + 0.8*random.random())])
-        self.b_car.set_pos([3*WIDTH/4, 0.1 + 0.8*HEIGHT*random.random()])
+        self.b_car.set_pos([3*WIDTH/4, HEIGHT*(0.1 + 0.8*random.random())])
     
         
     def draw(self, canvas):
